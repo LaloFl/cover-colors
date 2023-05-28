@@ -14,7 +14,7 @@ export function lastApiURL(uri) {
 export async function getTopAlbumsByColor(
   user,
   period = "overall",
-  limit = 50
+  limit = 100
 ) {
   const res = await fetch(
     lastApiURL(
